@@ -1,0 +1,37 @@
+#menu ul li {
+    margin: 0;
+    padding: 0px;
+    list-style-type: none;    
+
+}
+
+#menu a {
+    color:black;
+    align-items: left;
+}
+
+#menu a:link {
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    margin-top: 0px;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    color:rgba(0, 0, 0, 0.5);
+    
+    
+    margin-top: 0px;
+    font-weight: bold;
+    
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+#menu a:hover {
+    
+    color:white;
+    background-color: rgba(0, 0, 0, 0.5);        
+    transition: background 0.6s; 
+}

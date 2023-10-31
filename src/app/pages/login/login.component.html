@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<div class="pagina">
+
+ <app-painellogin></app-painellogin>
+  
+  <app-first-component>
+    <app-titulopadrao></app-titulopadrao>
+    
+    <label for="usuario">Usuário:</label>
+    <input type="text" id="usuario" name="usuario" placeholder="Seu usuário"  oninput="this.value = this.value.toUpperCase()">
+  
+    <label for="password">Senha:</label>
+    
+    <input value="" type="password" id="pass" name="pass" autocomplete="off" action=""  placeholder="Senha aqui">
+    Esquerceu a senha?
+
+    <app-botaopadrao variante="salvar"> Entrar</app-botaopadrao>
+    
+    <div>
+      <p>
+      </p>
+      
+    </div>
+  
+    <app-botaopadrao variante="teste"> Cadastro</app-botaopadrao>
+    
+  </app-first-component>  
+  
+</div>
+
+

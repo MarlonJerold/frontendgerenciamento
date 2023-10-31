@@ -1,0 +1,36 @@
+button{
+  width: 100px;
+  margin-top: 10px;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+  color: white;
+
+  
+  border-radius: 3px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.teste:hover {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.teste {
+  color: black;
+  background-color: white;
+}
+
+button:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
