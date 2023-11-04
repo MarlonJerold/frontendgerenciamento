@@ -1,37 +1,33 @@
 #menu ul li {
     margin: 0;
+    margin-top:45px;
     padding: 0px;
     list-style-type: none;    
 
 }
 
 #menu a {
-    color:black;
+    color: black;
     align-items: left;
+    font-weight: bold;
 }
 
 #menu a:link {
-    width: 100%;
+    width: 150px;
     position: relative;
-    padding: 0px;
-    margin-top: 0px;
-    left: 40%;
+    border-bottom-right-radius: 20px ;
+    background-color: white;
+    margin-left: 38%;
     transform: translate(-50%, -50%);
-    border-radius: 10px;
-    color:rgba(0, 0, 0, 0.5);
     
-    
-    margin-top: 0px;
-    font-weight: bold;
-    
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
     text-decoration: none;
     padding: 15px;
     display: block;
 }
 
 #menu a:hover {
-    
-    color:white;
-    background-color: rgba(0, 0, 0, 0.5);        
     transition: background 0.6s; 
+    border: 2px solid white;
+      
 }

@@ -2,16 +2,115 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    background-color: white;    
   }
 
 .teste {
-    height: 170px;
-    width: 100%;
-    border-radius: 10px;
+    height: 145px;
+    
     padding: 0;
-    position: relative;
-    box-shadow: 0px 0 2px rgba(0, 0, 0, 0.5), 0px 0 0px rgba(0, 0, 0, 0.5), 0 0px 0px rgba(0, 0, 0, 0.5);    
-
-    margin-bottom: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    background-color: white;
+    margin-top: 40px;
+    border-bottom-right-radius: 20px ;
 }
 
+.conteudoteste {
+  height: 50px;
+  width: 90%;
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #676666;
+}
+
+.testeteste{
+  height: 30%;
+  width: 100%;
+  background-color: black;
+}
+
+.textotitulo{
+  height: 25px;
+  margin-top: 2px;
+  margin-left: 10px;
+  
+  padding-top: 15px;
+  font-weight: bold;
+  text-align: left; 
+  width: 50%;
+
+}
+
+.textotitulo p {
+  font-size: 30px;
+  color: white;
+}
+
+.teste2{
+  height: 80%;
+  margin-left: 10px;
+
+  width: 200px;
+}
+
+.conteudonav{
+  height: 380px;
+  width: 210px;
+  margin-left: 5px;
+  margin-top: 45px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.container2 {
+  width: 70%;
+  margin-top: 0px;
+  margin-left: 10px;
+  height: 800px;
+}
+
+
+input[type="text"],
+textarea {
+  width: 100%;
+  transition: border-color 1s;
+  padding: 10px;
+  margin-top: 5px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+
+  display: node;
+
+}
+
+
+input[type="text"]:focus {
+  background: #ccc;
+  outline: thin dotted;
+  outline-offset: 0px;
+  outline-style: none;
+  border: 1px solid #ccc;
+}
+
+
+
+.botaos{
+  height: 60px;
+  text-align: center; 
+  margin-top: 5px;
+  width: 230px;
+}
+
+.consultar {
+  height: 100%;
+  width: 150px;
+  background-color: red;
+}
+
+.novo {
+  height: 100%;
+  width: 150px;
+  background-color: red;
+}

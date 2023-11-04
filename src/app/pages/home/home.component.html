@@ -3,21 +3,67 @@
 
     <app-first-component>
 
-        <div class="teste">
-            teste
+        
+        <div class="conteudonav">
+            <app-botaonav></app-botaonav>
+
+            <app-botaonav></app-botaonav>
+            <app-botaonav></app-botaonav>
+            <app-botaonav></app-botaonav>
         </div>
-    
-    <app-botaonav></app-botaonav>
-    <app-botaonav></app-botaonav>
-    <app-botaonav></app-botaonav>
-    <app-botaonav></app-botaonav>   
-    
+
+
+    <div class="teste">
+            
+            <div class="testeteste">
+
+            </div>   
+            <div class="conteudoteste">
+                <p>
+
+            Empresa: Nome da empresa
+            Nome: Nome do Funcionário
+            Cargo: Cargo do Funciário
+            Configurações
+                </p>
+            </div>         
+        </div>
+
     </app-first-component>
     
+    <div class="container2">
     <app-painelhome>
+        <div class="textotitulo">
+            <p>
+                Funcionários
+            </p>
+
+        </div>
 
     </app-painelhome>
-   
-
+    <app-painelhomemain>
+        <div class="teste2">
+            <input type="text" id="usuario" name="usuario" placeholder="ID"  oninput="this.value = this.value.toUpperCase()">
+            <input type="text" id="usuario" name="usuario" placeholder="Nome"  oninput="this.value = this.value.toUpperCase()">
+            <input type="text" id="usuario" name="usuario" placeholder="Setor"  oninput="this.value = this.value.toUpperCase()">
+            <div class="botaos">
+                
+                    <app-botaopadrao>CONSULTAR</app-botaopadrao>
+                    <app-botaopadrao>NOVO + </app-botaopadrao>
+                
+                
+                
+                
+                
+            </div>
+            
+        </div>
+        
+        
+            
+    </app-painelhomemain>
+    <app-conteudopainelconsultar></app-conteudopainelconsultar>
+</div>
+    
 
 </div>

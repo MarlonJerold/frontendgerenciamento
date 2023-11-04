@@ -8,6 +8,8 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 export class BotaopadraoComponent  implements OnInit{
   @Input() variante: string = "primario";
 
+
+
   constructor(){}
 
   ngOnInit(){}

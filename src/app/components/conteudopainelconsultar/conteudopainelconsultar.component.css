@@ -1,0 +1,27 @@
+.container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.segcontainer{
+    width: 95%;
+    margin-left: 20px;
+    background-color: #ccc;
+    position: absolute;
+    top: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.tabela, th, td{
+    border-collapse: collapse; /*define a separação entre as bordar*/
+    padding: 10px;
+    text-align: left;
+
+}
+th{
+    background-color: white;
+    color: black;
+}

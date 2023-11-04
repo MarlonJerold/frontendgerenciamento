@@ -22,6 +22,8 @@ import { TitulopadraoComponent } from './components/titulopadrao/titulopadrao.co
 import { PainelloginComponent } from './components/painellogin/painellogin.component';
 import { BotaonavComponent } from './components/botaonav/botaonav.component';
 import { PainelhomeComponent } from './component/painelhome/painelhome.component';
+import { PainelhomemainComponent } from './components/painelhomemain/painelhomemain.component';
+import { ConteudopainelconsultarComponent } from './components/conteudopainelconsultar/conteudopainelconsultar.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { PainelhomeComponent } from './component/painelhome/painelhome.component
     TitulopadraoComponent,
     PainelloginComponent,
     BotaonavComponent,
-    PainelhomeComponent
+    PainelhomeComponent,
+    PainelhomemainComponent,
+    ConteudopainelconsultarComponent
   ],
   imports: [
     BrowserModule,

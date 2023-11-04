@@ -1,9 +1,7 @@
 .container {
     height: 50px;
-    width: 900px;
-    margin-top: 10px;
-    margin-left: 10px;
+    width: 100%;
     background-color: black;
-    border-top-right-radius: 20px;
-    color: white;
+    margin: 0;    
+
 }
